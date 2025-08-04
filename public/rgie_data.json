@@ -7,9 +7,18 @@
       "definition": "Règlement Général des Installations Électriques en Belgique, assurant sécurité et conformité.",
       "structure": {
         "livres": [
-          {"nom": "Livre 1", "description": "Installations basse tension (logements, petits commerces)"},
-          {"nom": "Livre 2", "description": "Installations haute tension (industries, grandes infrastructures)"},
-          {"nom": "Livre 3", "description": "Transport et distribution d'électricité"}
+          {
+            "nom": "Livre 1",
+            "description": "Installations basse tension (logements, petits commerces)"
+          },
+          {
+            "nom": "Livre 2",
+            "description": "Installations haute tension (industries, grandes infrastructures)"
+          },
+          {
+            "nom": "Livre 3",
+            "description": "Transport et distribution d'électricité"
+          }
         ]
       },
       "objectifs": [
@@ -45,7 +54,7 @@
         "Mise à la terre efficace",
         "Protection contre contacts directs et indirects",
         "Dispositifs de coupure automatique (disjoncteurs, différentiels)",
-        "Exigences spécifiques pour salles d’eau et locaux humides"
+        "Exigences spécifiques pour salles d'eau et locaux humides"
       ],
       "protection_biens": [
         "Matériaux et appareillages adaptés",
@@ -88,15 +97,15 @@
         },
         {
           "mot": "Dispositif de coupure automatique",
-          "definition": "Équipement qui interrompt automatiquement l’alimentation en cas de défaut, tel que le disjoncteur différentiel."
+          "definition": "Équipement qui interrompt automatiquement l'alimentation en cas de défaut, tel que le disjoncteur différentiel."
         },
         {
           "mot": "Circuit",
-          "definition": "Partie de l’installation électrique destinée à une fonction spécifique, protégée par un dispositif de protection."
+          "definition": "Partie de l'installation électrique destinée à une fonction spécifique, protégée par un dispositif de protection."
         },
         {
           "mot": "Tableau électrique",
-          "definition": "Ensemble d’appareillages de protection, de commande et de répartition électrique regroupés."
+          "definition": "Ensemble d'appareillages de protection, de commande et de répartition électrique regroupés."
         }
       ]
     },
@@ -155,7 +164,7 @@
     "contenu": {
       "partie_5": [
         "Choix de matériels conformes aux normes",
-        "Installation selon règles de l’art et RGIE",
+        "Installation selon règles de l'art et RGIE",
         "Respect des conditions environnementales",
         "Protection mécanique des câbles",
         "Accessibilité pour maintenance",
@@ -172,7 +181,7 @@
       "partie_7": [
         "Normes spécifiques selon usage (habitations, professionnels, zones humides, industrielles)",
         "Localisation des tableaux accessible, ventilée et sécurisée",
-        "Distances minimales entre équipements électriques et points d’eau/gaz",
+        "Distances minimales entre équipements électriques et points d'eau/gaz",
         "Exigences pour installations temporaires et mobiles",
         "Signalisation et repérage clair des circuits"
       ],
