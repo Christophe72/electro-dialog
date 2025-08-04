@@ -1,0 +1,35 @@
+{
+  "name": "electro-diag",
+  "version": "1.0.0",
+  "description": "Application Next.js pour ELECTRO-DIAG",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.0.0",
+    "next": "latest",
+    "postcss": "^8.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.1.0",
+    "@types/react": "19.1.9",
+    "eslint": "^7.0.0",
+    "eslint-config-next": "^11.0.0",
+    "typescript": "^4.0.0"
+  }
+}
