@@ -1,0 +1,267 @@
+[
+  {
+    "section_id": "introduction",
+    "titre": "Introduction RGIE",
+    "description": "Présentation générale du RGIE et objectifs.",
+    "contenu": {
+      "definition": "Règlement Général des Installations Électriques en Belgique, assurant sécurité et conformité.",
+      "structure": {
+        "livres": [
+          {"nom": "Livre 1", "description": "Installations basse tension (logements, petits commerces)"},
+          {"nom": "Livre 2", "description": "Installations haute tension (industries, grandes infrastructures)"},
+          {"nom": "Livre 3", "description": "Transport et distribution d'électricité"}
+        ]
+      },
+      "objectifs": [
+        "Protection des personnes contre les risques électriques",
+        "Garantie de fonctionnement et durabilité",
+        "Harmonisation avec normes européennes"
+      ]
+    },
+    "date_mise_a_jour": "2025-07-28"
+  },
+  {
+    "section_id": "partie_1",
+    "titre": "Prescriptions générales",
+    "description": "Règles de base applicables aux installations électriques basse tension.",
+    "contenu": {
+      "domaine_application": "Installations électriques fixes à basse tension (≤1000 V AC / ≤1500 V DC) en Belgique.",
+      "objectifs": [
+        "Sécurité des personnes et des biens",
+        "Fonctionnement sûr et durable",
+        "Réduction des risques d'incendie et de choc électrique"
+      ],
+      "principes_fondamentaux": [
+        "Conception, réalisation, contrôle et entretien selon règles de l'art",
+        "Vérification de conformité avant mise en service",
+        "Respect du RGIE en cas de modification ou extension"
+      ],
+      "documents": [
+        "Plans et schémas électriques à jour",
+        "Certificat de conformité par organisme agréé",
+        "Documentation technique des équipements"
+      ],
+      "protection_personnes": [
+        "Mise à la terre efficace",
+        "Protection contre contacts directs et indirects",
+        "Dispositifs de coupure automatique (disjoncteurs, différentiels)",
+        "Exigences spécifiques pour salles d’eau et locaux humides"
+      ],
+      "protection_biens": [
+        "Matériaux et appareillages adaptés",
+        "Protection contre surcharges et courts-circuits",
+        "Mesures de prévention incendie"
+      ],
+      "maintenance_controles": [
+        "Inspections périodiques obligatoires",
+        "Dossier de maintenance tenu à jour",
+        "Réparation obligatoire en cas de non-conformité"
+      ]
+    },
+    "date_mise_a_jour": "2025-07-28"
+  },
+  {
+    "section_id": "partie_2",
+    "titre": "Termes et définitions",
+    "description": "Glossaire des termes utilisés dans le RGIE.",
+    "contenu": {
+      "termes": [
+        {
+          "mot": "Installation électrique",
+          "definition": "Ensemble des matériels fixes destinés à la production, distribution, transformation, conversion, stockage, mesure, protection ou utilisation d'énergie électrique."
+        },
+        {
+          "mot": "Basse tension (BT)",
+          "definition": "Tension nominale inférieure ou égale à 1000 V en courant alternatif ou 1500 V en courant continu."
+        },
+        {
+          "mot": "Très basse tension (TBT)",
+          "definition": "Tension inférieure ou égale à 50 V en courant alternatif ou 120 V en courant continu."
+        },
+        {
+          "mot": "Protection contre les contacts directs",
+          "definition": "Mesures empêchant tout contact accidentel avec des parties sous tension."
+        },
+        {
+          "mot": "Protection contre les contacts indirects",
+          "definition": "Mesures empêchant le contact avec des parties conductrices non sous tension en conditions normales mais pouvant le devenir en cas de défaut."
+        },
+        {
+          "mot": "Dispositif de coupure automatique",
+          "definition": "Équipement qui interrompt automatiquement l’alimentation en cas de défaut, tel que le disjoncteur différentiel."
+        },
+        {
+          "mot": "Circuit",
+          "definition": "Partie de l’installation électrique destinée à une fonction spécifique, protégée par un dispositif de protection."
+        },
+        {
+          "mot": "Tableau électrique",
+          "definition": "Ensemble d’appareillages de protection, de commande et de répartition électrique regroupés."
+        }
+      ]
+    },
+    "date_mise_a_jour": "2025-07-28"
+  },
+  {
+    "section_id": "partie_3_4",
+    "titre": "Détermination des caractéristiques et mesures de protection",
+    "description": "Dimensionnement des installations et mesures de protection des personnes et biens.",
+    "contenu": {
+      "partie_3": {
+        "objectifs": "Dimensionner correctement l'installation électrique en fonction des charges et conditions.",
+        "principes": [
+          "Calcul des courants maximaux (fonctionnement, court-circuit).",
+          "Dimensionnement des conducteurs selon charges et conditions.",
+          "Choix des dispositifs de protection (disjoncteurs, fusibles).",
+          "Application des facteurs de correction (température, pose, regroupement)."
+        ],
+        "documents": [
+          "Schémas unifilaires",
+          "Tableaux de caractéristiques",
+          "Notes de calcul"
+        ]
+      },
+      "partie_4": {
+        "objectifs": "Garantir la sécurité des personnes et des biens face aux défauts électriques.",
+        "protections": {
+          "contacts_directs": [
+            "Isolation des parties actives",
+            "Barrières, coffrets fermés",
+            "Revêtements isolants"
+          ],
+          "contacts_indirects": [
+            "Mise à la terre efficace des masses",
+            "Disjoncteur différentiel (30 mA en habitation)",
+            "Coupure automatique en cas de défaut"
+          ],
+          "surcharge_court_circuit": [
+            "Dispositifs adaptés calibrés selon section des câbles"
+          ],
+          "surtensions": [
+            "Dispositifs de protection contre surtensions transitoires (DPS)"
+          ],
+          "zones_particulieres": [
+            "Normes renforcées pour salles de bain, piscines, zones explosibles"
+          ]
+        }
+      }
+    },
+    "date_mise_a_jour": "2025-07-28"
+  },
+  {
+    "section_id": "partie_5_6_7_8",
+    "titre": "Choix, mise en œuvre, contrôles, règles et prescriptions installations existantes",
+    "description": "Instructions sur matériels, mise en œuvre, contrôle et conformité des installations.",
+    "contenu": {
+      "partie_5": [
+        "Choix de matériels conformes aux normes",
+        "Installation selon règles de l’art et RGIE",
+        "Respect des conditions environnementales",
+        "Protection mécanique des câbles",
+        "Accessibilité pour maintenance",
+        "Raccordement correct des équipements"
+      ],
+      "partie_6": [
+        "Inspection visuelle avant mise en service",
+        "Mesures électriques obligatoires (continuité terre, isolation, résistance)",
+        "Essais fonctionnels des protections (différentiels, disjoncteurs)",
+        "Rapport de contrôle conforme RGIE",
+        "Contrôles périodiques selon type d'installation",
+        "Intervention corrective en cas de non-conformité"
+      ],
+      "partie_7": [
+        "Normes spécifiques selon usage (habitations, professionnels, zones humides, industrielles)",
+        "Localisation des tableaux accessible, ventilée et sécurisée",
+        "Distances minimales entre équipements électriques et points d’eau/gaz",
+        "Exigences pour installations temporaires et mobiles",
+        "Signalisation et repérage clair des circuits"
+      ],
+      "partie_8": [
+        "Conformité progressive des installations anciennes",
+        "Adaptation aux normes lors de rénovations ou modifications",
+        "Remplacement des matériels obsolètes à risque",
+        "Historique des interventions et contrôles",
+        "Délais possibles pour mise en conformité"
+      ]
+    },
+    "date_mise_a_jour": "2025-07-28"
+  },
+  {
+    "section_id": "partie_9_conclusion",
+    "titre": "Prescriptions personnes et conclusion",
+    "description": "Compétences, responsabilités et message final RGIE.",
+    "contenu": {
+      "partie_9": {
+        "competences": [
+          "Travaux réalisés par personnes compétentes et habilitées",
+          "Formation continue obligatoire",
+          "Maintien des compétences"
+        ],
+        "securite_personnel": [
+          "Procédures de consignation et isolation",
+          "Équipements de protection individuelle",
+          "Gestion des risques lors des interventions"
+        ],
+        "responsabilites": [
+          "Responsabilité employeur pour sécurité et formation",
+          "Respect des consignes par les électriciens"
+        ],
+        "prevention_accidents": [
+          "Analyse des risques avant travaux",
+          "Mise en œuvre des mesures correctives"
+        ]
+      },
+      "conclusion": [
+        "Le RGIE garantit sécurité, qualité et conformité des installations électriques en Belgique.",
+        "Application rigoureuse indispensable pour les professionnels.",
+        "Respect des prescriptions protège personnes et biens.",
+        "Veille nécessaire pour suivre évolutions réglementaires et techniques."
+      ]
+    },
+    "date_mise_a_jour": "2025-07-28"
+  },
+  {
+    "section_id": "nouveautes_2022_2025",
+    "titre": "Nouveautés RGIE / AREI 2022-2025",
+    "description": "Principales nouveautés réglementaires récentes.",
+    "contenu": [
+      {
+        "annee": 2022,
+        "changements": [
+          "Refonte complète du RGIE en 3 livres",
+          "Suppression des anciennes dérogations automatiques",
+          "Introduction du cadre pour bornes de recharge et photovoltaïque",
+          "Extension des obligations de réception par organisme agréé"
+        ]
+      },
+      {
+        "annee": 2023,
+        "changements": [
+          "Mise à jour des exigences pour logements collectifs",
+          "Définition des zones communes en copropriétés",
+          "Nouveaux types de différentiels (type F)",
+          "Clarifications sur prises commandées"
+        ]
+      },
+      {
+        "annee": 2024,
+        "changements": [
+          "Alignement sur normes européennes",
+          "Marquage clair des tableaux PME",
+          "Analyse des risques obligatoire en tertiaire",
+          "Exigences renforcées pour pompes à chaleur"
+        ]
+      },
+      {
+        "annee": 2025,
+        "changements": [
+          "Prises IP obligatoires en salles de bains",
+          "Sécurisation armoires électriques en zones publiques",
+          "Délai 2 ans pour mise en conformité",
+          "Bornes de recharge obligatoires en parkings non résidentiels"
+        ]
+      }
+    ],
+    "date_mise_a_jour": "2025-07-28"
+  }
+]
