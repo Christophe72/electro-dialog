@@ -1,18 +1,30 @@
 # electro-diag 
  
-Application Next.js pour la gestion et consultation du RGIE (Règlement Général des Installations Électriques). 
+Application Next.js pour la consultation du RGIE (Règlement Général des Installations Électriques) belge. 
  
-## Description 
-Cette application permet de consulter et naviguer dans les différentes sections du RGIE belge. 
+## Fonctionnalités 
+- Interface de navigation intuitive 
+- Affichage structuré des sections RGIE 
+- Recherche et filtrage des contenus 
+- Design responsive avec Tailwind CSS 
  
-## Technologies utilisées 
-- Next.js 
-- React 
+## Technologies 
+- Next.js 14+ 
+- React 18+ 
 - TypeScript 
 - Tailwind CSS 
  
-## Installation 
+## Installation et utilisation 
 ``` 
+# Installation des dépendances 
 npm install 
+ 
+# Démarrage en mode développement 
 npm run dev 
+ 
+# Build de production 
+npm run build 
+npm start 
 ``` 
+ 
+L'application sera accessible sur http://localhost:3000 
