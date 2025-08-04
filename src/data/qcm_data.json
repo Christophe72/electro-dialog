@@ -1,0 +1,154 @@
+[
+  {
+    "id": "qcm_1",
+    "titre": "Prescriptions générales RGIE",
+    "description": "Questions sur les règles de base du RGIE",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Quelle est la tension limite de la basse tension en courant alternatif selon le RGIE ?",
+        "options": ["≤ 500 V", "≤ 1000 V", "≤ 1500 V", "≤ 2000 V"],
+        "reponse_correcte": 1,
+        "explication": "La basse tension est définie comme une tension nominale inférieure ou égale à 1000 V en courant alternatif selon le RGIE."
+      },
+      {
+        "id": "q2",
+        "question": "Quel est l'objectif principal du RGIE ?",
+        "options": [
+          "Réduire les coûts d'installation",
+          "Protéger les personnes contre les risques électriques",
+          "Augmenter l'efficacité énergétique",
+          "Simplifier les installations"
+        ],
+        "reponse_correcte": 1,
+        "explication": "L'objectif principal du RGIE est la protection des personnes contre les risques électriques, ainsi que la garantie de fonctionnement et durabilité des installations."
+      },
+      {
+        "id": "q3",
+        "question": "Quelle est la valeur maximale du courant de défaut pour un disjoncteur différentiel en habitation ?",
+        "options": ["10 mA", "30 mA", "100 mA", "300 mA"],
+        "reponse_correcte": 1,
+        "explication": "En habitation, le disjoncteur différentiel doit avoir un courant de défaut maximal de 30 mA pour assurer la protection des personnes."
+      }
+    ]
+  },
+  {
+    "id": "qcm_2",
+    "titre": "Termes et définitions RGIE",
+    "description": "Questions sur le vocabulaire technique du RGIE",
+    "questions": [
+      {
+        "id": "q4",
+        "question": "Qu'est-ce qu'une installation électrique selon le RGIE ?",
+        "options": [
+          "Uniquement les câbles électriques",
+          "Les prises et interrupteurs seulement",
+          "Ensemble des matériels fixes destinés à la production, distribution, transformation d'énergie électrique",
+          "Le tableau électrique uniquement"
+        ],
+        "reponse_correcte": 2,
+        "explication": "Une installation électrique est définie comme l'ensemble des matériels fixes destinés à la production, distribution, transformation, conversion, stockage, mesure, protection ou utilisation d'énergie électrique."
+      },
+      {
+        "id": "q5",
+        "question": "Que signifie 'protection contre les contacts directs' ?",
+        "options": [
+          "Protection contre l'humidité",
+          "Mesures empêchant tout contact accidentel avec des parties sous tension",
+          "Protection contre les surcharges",
+          "Protection contre les courts-circuits"
+        ],
+        "reponse_correcte": 1,
+        "explication": "La protection contre les contacts directs consiste en des mesures empêchant tout contact accidentel avec des parties sous tension."
+      },
+      {
+        "id": "q6",
+        "question": "Quelle est la tension limite de la très basse tension (TBT) en courant alternatif ?",
+        "options": ["≤ 12 V", "≤ 24 V", "≤ 50 V", "≤ 120 V"],
+        "reponse_correcte": 2,
+        "explication": "La très basse tension (TBT) est définie comme une tension inférieure ou égale à 50 V en courant alternatif."
+      }
+    ]
+  },
+  {
+    "id": "qcm_3",
+    "titre": "Mesures de protection",
+    "description": "Questions sur les dispositifs et mesures de protection",
+    "questions": [
+      {
+        "id": "q7",
+        "question": "Quels sont les éléments de protection contre les contacts indirects ?",
+        "options": [
+          "Isolation uniquement",
+          "Mise à la terre des masses et coupure automatique",
+          "Barrières physiques seulement",
+          "Marquage et signalisation"
+        ],
+        "reponse_correcte": 1,
+        "explication": "La protection contre les contacts indirects nécessite une mise à la terre efficace des masses et un dispositif de coupure automatique en cas de défaut."
+      },
+      {
+        "id": "q8",
+        "question": "Que signifie DPS dans le contexte du RGIE ?",
+        "options": [
+          "Dispositif de Protection Sismique",
+          "Dispositif de Protection contre les Surtensions transitoires",
+          "Dispositif de Protection Solaire",
+          "Dispositif de Protection Standard"
+        ],
+        "reponse_correcte": 1,
+        "explication": "DPS signifie Dispositif de Protection contre les Surtensions transitoires, utilisé pour protéger les installations contre les surtensions."
+      },
+      {
+        "id": "q9",
+        "question": "Quelles zones nécessitent des normes de protection renforcées ?",
+        "options": [
+          "Bureaux et salles de réunion",
+          "Salles de bain, piscines, zones explosibles",
+          "Cuisines résidentielles seulement",
+          "Garages et sous-sols"
+        ],
+        "reponse_correcte": 1,
+        "explication": "Les salles de bain, piscines et zones explosibles nécessitent des normes de protection renforcées en raison des risques accrus."
+      }
+    ]
+  },
+  {
+    "id": "qcm_4",
+    "titre": "Nouveautés RGIE 2022-2025",
+    "description": "Questions sur les évolutions récentes du RGIE",
+    "questions": [
+      {
+        "id": "q10",
+        "question": "Quelle a été la principale modification du RGIE en 2022 ?",
+        "options": [
+          "Augmentation des tensions limites",
+          "Refonte complète en 3 livres",
+          "Suppression des contrôles obligatoires",
+          "Réduction des exigences de sécurité"
+        ],
+        "reponse_correcte": 1,
+        "explication": "En 2022, le RGIE a été complètement refondu et organisé en 3 livres distincts pour une meilleure structuration."
+      },
+      {
+        "id": "q11",
+        "question": "Quelle nouveauté concernant les prises a été introduite en 2025 ?",
+        "options": [
+          "Prises USB obligatoires partout",
+          "Prises IP obligatoires en salles de bains",
+          "Suppression des prises de terre",
+          "Prises sans protection différentielle"
+        ],
+        "reponse_correcte": 1,
+        "explication": "En 2025, les prises IP (avec protection contre l'eau) sont devenues obligatoires en salles de bains pour renforcer la sécurité."
+      },
+      {
+        "id": "q12",
+        "question": "Quel délai a été fixé pour la mise en conformité selon les nouvelles exigences 2025 ?",
+        "options": ["6 mois", "1 an", "2 ans", "5 ans"],
+        "reponse_correcte": 2,
+        "explication": "Un délai de 2 ans a été accordé pour la mise en conformité avec les nouvelles exigences introduites en 2025."
+      }
+    ]
+  }
+]

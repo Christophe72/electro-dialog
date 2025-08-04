@@ -20,6 +20,12 @@ const HomePage = () => {
                 📋 Documentation RGIE
               </Link>
               <Link
+                href="/qcm"
+                className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg font-medium transition-colors"
+              >
+                🧠 QCM Connaissances
+              </Link>
+              <Link
                 href="/pannes"
                 className="px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg font-medium transition-colors"
               >
@@ -43,7 +49,7 @@ const HomePage = () => {
         </div>
 
         {/* Cards de navigation */}
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
           <Link href="/" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
@@ -58,6 +64,24 @@ const HomePage = () => {
               </p>
               <div className="mt-4 text-blue-600 font-medium">
                 Consulter la documentation →
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/qcm" className="group">
+            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <span className="text-3xl mr-4">🧠</span>
+                <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600">
+                  QCM Connaissances
+                </h3>
+              </div>
+              <p className="text-gray-600">
+                Testez vos connaissances avec des questionnaires interactifs sur
+                tous les aspects du RGIE.
+              </p>
+              <div className="mt-4 text-blue-600 font-medium">
+                Commencer un QCM →
               </div>
             </div>
           </Link>
