@@ -13,58 +13,70 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo Étape 1: Création/mise à jour du README.md...
-echo # electro-diag > README.md
-echo. >> README.md
-echo Application Next.js pour la gestion et consultation du RGIE (Règlement Général des Installations Électriques). >> README.md
-echo. >> README.md
-echo ## Description >> README.md
-echo Cette application permet de consulter et naviguer dans les différentes sections du RGIE belge. >> README.md
-echo. >> README.md
-echo ## Technologies utilisées >> README.md
-echo - Next.js >> README.md
-echo - React >> README.md
-echo - TypeScript >> README.md
-echo - Tailwind CSS >> README.md
-echo. >> README.md
-echo ## Installation >> README.md
-echo ``` >> README.md
-echo npm install >> README.md
-echo npm run dev >> README.md
-echo ``` >> README.md
+echo Étape 1: Vérification de l'état du dépôt...
+if exist .git (
+    echo Dépôt Git existant détecté. Synchronisation avec GitHub...
+    git fetch origin
+    if errorlevel 1 (
+        echo ERREUR: Impossible de récupérer les changements distants
+        pause
+        exit /b 1
+    )
+    
+    echo Tentative de merge automatique...
+    git merge origin/main --no-edit
+    if errorlevel 1 (
+        echo CONFLIT DÉTECTÉ: Résolution automatique du README.md...
+        git checkout --theirs README.md
+        git add README.md
+        git commit -m "Auto-résolution conflit README.md - Version locale conservée"
+    )
+) else (
+    echo Étape 1: Initialisation du dépôt Git...
+    git init
+    git branch -M main
+    git remote add origin https://github.com/Christophe72/electro-dialog.git
+)
 
-echo Étape 2: Initialisation du dépôt Git...
-git init
-
-echo Étape 3: Ajout de tous les fichiers...
+echo Étape 2: Ajout de tous les fichiers...
 git add .
 
-echo Étape 4: Premier commit...
-git commit -m "first commit - Application RGIE avec interface Next.js"
+echo Étape 3: Commit des changements...
+git commit -m "Mise à jour: Application RGIE complète avec QCM et diagnostic pannes"
 
-echo Étape 5: Création de la branche main...
-git branch -M main
-
-echo Étape 6: Ajout de l'origine distante...
-git remote add origin https://github.com/Christophe72/electro-dialog.git
-
-echo Étape 7: Push vers GitHub...
-git push -u origin main
+echo Étape 4: Push vers GitHub...
+git push origin main
 
 if errorlevel 1 (
     echo.
-    echo ATTENTION: Une erreur s'est produite lors du push.
-    echo Cela peut arriver si:
-    echo - Le dépôt distant n'existe pas encore
-    echo - Vous n'avez pas les permissions d'écriture
-    echo - Vous devez vous authentifier
-    echo.
-    echo Veuillez:
-    echo 1. Créer le dépôt 'electro-dialog' sur GitHub si ce n'est pas fait
-    echo 2. Vérifier vos credentials GitHub
-    echo 3. Réessayer le push manuellement avec: git push -u origin main
-    pause
-    exit /b 1
+    echo ATTENTION: Échec du push. Tentative de résolution automatique...
+    
+    echo Récupération des changements distants...
+    git fetch origin
+    
+    echo Tentative de merge avec stratégie automatique...
+    git merge origin/main --strategy-option=theirs --no-edit
+    
+    if errorlevel 1 (
+        echo Résolution manuelle nécessaire. Commandes à exécuter:
+        echo 1. git fetch origin
+        echo 2. git merge origin/main
+        echo 3. Résoudre les conflits manuellement
+        echo 4. git add .
+        echo 5. git commit -m "Résolution conflits"
+        echo 6. git push origin main
+        pause
+        exit /b 1
+    )
+    
+    echo Nouveau push après merge...
+    git push origin main
+    
+    if errorlevel 1 (
+        echo ERREUR: Push impossible même après merge
+        pause
+        exit /b 1
+    )
 )
 
 echo.
